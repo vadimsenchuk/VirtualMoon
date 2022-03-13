@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css?_v=20220313113350" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.min.css?_v=20220313113350">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="moon" id="moon">
+            <picture><source srcset="images/moon.webp" type="image/webp"><img src="images/moon.png" alt=""></picture>
+            <div class="moon__wrapper">
+            </div>
+        </div>
+        <!-- <div class="light" id="light">
+            <picture><source srcset="images/light.webp" type="image/webp"><img src="images/light.png" alt=""></picture>
+        </div> -->
+        <header class="header">
+    <div class="container">
+        <div class="row header__row">
+            <a href="./" class="logo">
+                <img src="images/Logo.svg" alt="VirtualMoon">
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="/about.html" class="nav__link">about</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Quick Guide</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Newsroom</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">lunar store</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">support VM</a></li>
+                </ul>
+            </nav>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </div>
+    <div class="menu">
+        <ul class="menu__list">
+            <li class="menu__item"><a href="./about.html" class="menu__link">about</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Quick Guide</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Newsroom</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">lunar store</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">support VM</a></li>
+        </ul>
+        <div class="close">
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+</header>
+        <main class="main">
+            <section class="virtual" id="virtual">
+    <div class="container">
+        <div class="row virtual__row">
+            <div class="virtual__block">
+                <h2 class="virtual__title">
+                    <p>Virtual</p>
+                    <p>
+                        <span>Mo</span>
+                        <a href="#" class="virtual__animate"></a>
+                        <span>n</span>
+                    </p>
+                </h2>
+            </div>
+            <div class="virtual__social social">
+                <ul class="social__list">
+                    <li class="social__item"><a href="#" class="social__link social__link--twiiter"></a></li>
+                    <li class="social__item"><a href="#" class="social__link social__link--facebook"></a></li>
+                    <li class="social__item"><a href="#" class="social__link social__link--youtube"></a></li>
+                    <li class="social__item"><a href="#" class="social__link social__link--instagram"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row virtual__row">
+            <p class="virtual__text">is your spacetime portal to the Moon.</p>
+        </div>
+        <div class="virtual__join join">
+            <div class="info">
+                <div class="info__title">Where on the Moon do you want to go? Let us know</div>
+                <a href="#" class="btn join__btn">Here</a>
+            </div>
+            <div class="info__text">
+                <p class="text">We are creating a simulation of the entire Lunar surface which is based on Lunar topography data from NASA’s Lunar Reconnaissance Orbiter mission, the brand new USGS/NASA moon map, as well as high-resolution photography and historical data from past Moon missions. Virtual Moon will be accurate in every detail. It will, of course, include all man-made objects that were sent to or left on the Moon.</p>
+                <p class="text">You will be able to visit every landing site and walk around, examine, and learn about the objects to be found there. You will have complete freedom of movement over the entire Moon, either by just walking around in your custom spacesuit or by driving or piloting your own surface or flying vehicles.</p>
+            </div>
+        </div>
+    </div>
+</section>
+            <section class="private">
+    <div class="container">
+        <h2 class="title private__title"">Private Tours on a Virtual Moon</h2>
+        <h3 class="subtitle private__subtitle">Multiuser <span>Apollo 11</span> Historic Landing Sight</h3>
+        <div class="private__block">
+            <div class="private__row row">
+                <div class="private__info">
+                    <p class="private__text text">
+                        Coming Soon - Virtual Moon Private Tours. Take your kids to the Moon using our browser based application. Works on computers, tablets and immersively in Oculus Quest 2.
+                    </p>
+                    <div class="private__control control row">
+                        <a href="#" class="btn control__btn">more info</a>
+                        <a href="#" class="control__text">How it works</a>
+                    </div>
+                </div>
+                <div class="private__img">
+                    <picture><source srcset="images/privateTour.webp" type="image/webp"><img src="images/privateTour.png" alt="Private Tour" data-aos="flip-right"></picture>
+                </div>
+            </div>
+        </div>
+        <h3 class="subtitle">Your <span>Free</span> Private Tour</h3>
+        <div class="private__block">
+            <div class="private__grid">
+                <div class="private__info">
+                    <p class="private__text text">
+                        Limited time offer for educational organisations: Reserve your tour for free now to be first beta testers visiting Apollo 11 Historic Landing Sight
+                    </p>
+                </div>
+                <div class="private__form">
+                    <form action="/" class="form" id="reserve" method="post">
+                        <div class="form__select">
+                            <select name="count" id="select">
+                                <option disabled>How many people? (max 20)</option>
+                                <option value="1-10">1-10</option>
+                                <option value="11-20">11-20</option>
+                                <option value="21-30">21-30</option>
+                                <option value="30+">30+</option>
+                            </select>
+                        </div>
+                        <input type="text" name="name" placeholder="Name">
+                        <input type="email" name="email" placeholder="Email">
+                        <input type="text" name="organisation" placeholder="Organisation">
+                    </form>
+                </div>
+                <input type="submit" form="reserve" class="btn" value="Reserve">
+            </div>
+        </div>
+    </div>
+</section>
+            <section class="overview">
+    <div class="container">
+        <h2 class="title overview__title">South Pole overview</h2>
+        <div class="row overview__row">
+            <div class="overview__info">
+                <div class="overview__block">
+                    <div class="overview__subtitle">How to use</div>
+                    <div class="overview__text text">Use your mouse to look around, use your cursor keys to navigate.</div>
+                </div>
+                <div class="overview__block">
+                    <div class="overview__subtitle">Keyboard shortcuts:</div>
+                    <div class="overview__cards cards">
+                        <div class="card">
+                            <div class="card__title">L</div>
+                            <div class="card__text">Labels</div>
+                        </div>
+                        <div class="card">
+                            <div class="card__title">I</div>
+                            <div class="card__text">Ice deposits</div>
+                        </div>
+                        <div class="card">
+                            <div class="card__title">C</div>
+                            <div class="card__text">Effect</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="overview__block">
+                    <div class="overview__text text">
+                        Coming soon to South Pole: Selene city building site. We are building a community, a virtual homestead of people interested in Moon exploration.
+                    </div>
+                </div>
+            </div>
+            <div class="overview__img">
+                <picture><source srcset="images/moonMap.webp" type="image/webp"><img src="images/moonMap.png" alt="Map"></picture>
+                <div class="overview__subtitle">How it works</div>
+            </div>
+        </div>
+    </div>
+</section>
+            <section class="arch">
+    <div class="container">
+        <h3 class="arch__subtitle">Call for Submissions for the </h3>
+        <div class="row arch__row">
+            <h2 class="title arch__title">Lunar Architecture Exhibits</h2>
+            <p class="text arch__text">
+                Looking for architects who would like to build virtual multi-user experiences on our Virtual Moon to develop and showcase Moon architecture and visualize solutions, etc.
+            </p>
+        </div>
+        <div class="info arch__info">
+            <div class="info__title">Submit Your Lunar Architecture Design</div>
+            <a href="#" class="btn">Submit</a>
+        </div>
+    </div>
+</section>
+            <section class="contact">
+    <div class="container">
+        <div class="title contact__title">We want to hear from you</div>
+        <div class="row contact__row">
+            <div class="contact__info">
+                <div class="contact__text text">
+                    We have many great ideas for Virtual Moon but we are building Virtual Moon for you. So we are very interested in hearing what you would like to see in Virtual Moon. 
+                </div>
+                <div class="contact__share">
+                    <h3 class="contact__subtitle">Please share with us</h3>
+                    <ul class="contact__list">
+                        <li class="contact__item">-Where would you like to go on the Moon?</li>
+                        <li class="contact__item">-What would you like to see?</li>
+                        <li class="contact__item">-What do you want to do on the Moon?</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contact__block">
+                <form class="form contact__form" method="post">
+                    <div class="form__block row">
+                        <div class="form__text">
+                            Enter your contact information and type in your responses in the message box.
+                        </div>
+                        <div class="form__text">
+                            You can also simply enter your contact information just to get updates on our progress.
+                        </div>
+                    </div>
+                    <textarea name="message" id="message" placeholder="Message"></textarea>
+                    <div class="form__input">
+                        <input type="text" name="name" placeholder="Name">
+                        <input type="email" name="email" placeholder="Email adress">
+                    </div>
+                    <button type="submit" class="btn form__btn">send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+        </main>
+        <footer class="footer">
+    <div class="container">
+        <div class="footer__grid">
+            <div class="footer__logo">
+                <a href="./" class="logo">
+                    <img src="images/Logo.svg" alt="Logo">
+                </a>
+            </div>
+            <a href="#" class="footer__btn footer__btn--contact">contact us</a>
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="./about.html" class="footer__link">about</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Quick Guide</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">Newsroom</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">lunar store</a></li>
+                    <li class="footer__item"><a href="#" class="footer__link">support VM</a></li>
+                </ul>
+            </nav>
+            <form action="post" class="footer__form form" id="footer__form">
+                <input type="email" placeholder="Email address">
+            </form>
+            <button type="submit" class="footer__btn footer__btn--subscribe" form="footer__form">Subscribe</button>
+            <ul class="footer__social">
+                <li class="social__item"><a href="#" class="social__link social__link--twiiter"></a></li>
+                <li class="social__item"><a href="#" class="social__link social__link--facebook"></a></li>
+                <li class="social__item"><a href="#" class="social__link social__link--youtube"></a></li>
+                <li class="social__item"><a href="#" class="social__link social__link--instagram"></a></li>
+            </ul>
+            <a href="#" class="footer__btn footer__btn--donate">donate</a>
+        </div>
+    </div>
+    <div class="footer__copyright">
+        Copyright © VirtualMoon 2022
+    </div>
+</footer>
+    </div>
+
+    <script src="js/main.min.js?_v=20220313113350"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js?_v=20220313113350"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
