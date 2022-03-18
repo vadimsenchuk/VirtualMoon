@@ -5,17 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css?_v=20220313195221" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.min.css?_v=20220313195221">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css?_v=20220318180425" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.min.css?_v=20220318180425">
 </head>
 
 <body>
     <div class="wrapper">
-        <div class="moon" id="moon">
-            <picture><source srcset="images/moon.webp" type="image/webp"><img src="images/moon.png" alt=""></picture>
-            <div class="moon__wrapper">
-            </div>
-        </div>
         <header class="header">
     <div class="container">
         <div class="row header__row">
@@ -40,11 +35,27 @@
     </div>
     <div class="menu">
         <ul class="menu__list">
-            <li class="menu__item"><a href="./about.html" class="menu__link">about</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Quick Guide</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">Newsroom</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">lunar store</a></li>
-            <li class="menu__item"><a href="#" class="menu__link">support VM</a></li>
+            
+                <li class="menu__item">
+                    <a href="/about.html" class="menu__link">about</a>
+                </li>
+            
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Quick Guide</a>
+                </li>
+            
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Newsroom</a>
+                </li>
+            
+                <li class="menu__item">
+                    <a href="#" class="menu__link">lunar store</a>
+                </li>
+            
+                <li class="menu__item">
+                    <a href="#" class="menu__link">support VM</a>
+                </li>
+            
         </ul>
         <div class="close">
             <div class="line"></div>
@@ -52,7 +63,12 @@
         </div>
     </div>
 </header>
-        <main class="main">
+        <div class="moon" id="moon">
+            <picture><source srcset="images/moon.webp" type="image/webp"><img src="images/moon.png" alt=""></picture>
+            <div class="moon__wrapper">
+            </div>
+        </div>
+        <main class="main main__home">
             <section class="virtual" id="virtual">
     <div class="container">
         <div class="row virtual__row">
@@ -269,23 +285,11 @@
 </footer>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js?_v=20220313195221"></script>
-    <script src="js/main.min.js?_v=20220313195221"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js?_v=20220313195221"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js?_v=20220318180425"></script>
+    <script src="js/main.min.js?_v=20220318180425"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js?_v=20220318180425"></script>
     <script>
         AOS.init();
     </script>
-    <!-- <script>
-        function openMenu() {
-            $(".burger").click(function () {
-                console.log('work')
-                $(".menu").addClass("active");
-                $("body").css({
-                overflow: "hiden",
-                });
-            });
-        }
-        openMenu()
-    </script> -->
 </body>
 </html>
