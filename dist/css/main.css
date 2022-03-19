@@ -2729,12 +2729,13 @@ body {
     margin-top: 80px;
   }
 
+  .descr__row {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
   .descr__img {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
-    width: calc(25% - 30px);
-    margin-top: 0;
     margin-bottom: 0;
   }
 
@@ -2744,6 +2745,7 @@ body {
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
     width: calc(75% - 30px);
+    margin-top: 20px;
   }
 
   .story {
