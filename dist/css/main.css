@@ -1549,6 +1549,25 @@ body {
   color: #8c8c8c;
 }
 
+.descr__img {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  width: calc(25% - 30px);
+}
+
+.descr__text {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  width: calc(75% - 30px);
+}
+
+.descr__text a {
+  text-decoration: none;
+  color: #0066ff;
+}
+
 .story {
   margin-top: 80px;
 }
