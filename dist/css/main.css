@@ -1556,10 +1556,7 @@ body {
 }
 
 .descr__img {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
-  width: calc(50% - 30px);
+  width: 250px;
   height: 300px;
   border: 1px solid #fff;
   margin-bottom: 20px;
@@ -2194,10 +2191,6 @@ body {
   }
 
   .descr__img {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-            flex: 0 0 auto;
-    width: calc(33.3333333333% - 30px);
     margin-bottom: 40px;
   }
 
