@@ -1559,10 +1559,12 @@ body {
   width: 250px;
   height: 300px;
   border: 1px solid #fff;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .descr__text {
+  font-size: 1rem;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
@@ -1571,6 +1573,7 @@ body {
 }
 
 .descr__text a {
+  font-size: inherit;
   text-decoration: none;
   color: #0066ff;
 }
@@ -2191,7 +2194,11 @@ body {
   }
 
   .descr__img {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
+  }
+
+  .descr__text {
+    font-size: 1.125rem;
   }
 
   .story {
@@ -2727,10 +2734,12 @@ body {
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
     width: calc(25% - 30px);
+    margin-top: 0;
     margin-bottom: 0;
   }
 
   .descr__text {
+    font-size: 1.25rem;
     -webkit-box-flex: 0;
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
